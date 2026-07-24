@@ -1,6 +1,7 @@
 {
   "name": "DATA789 HW4 — Deploy Layer",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  // "image": "mcr.microsoft.com/devcontainers/base:ubuntu",    // Unable to launch the container with this image
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {},

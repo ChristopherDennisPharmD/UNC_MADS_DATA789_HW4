@@ -20,3 +20,7 @@ The baseline deployment includes:
 - A rolling-update strategy with maxUnavailable: 0 and maxSurge: 1
 
 The health probes use /health because it is a lightweight endpoint that does not require a prediction payload or invoke the full prediction workflow.
+
+## AI Attestation
+
+ChatGPT was used to clarify Kubernetes and development-container concepts, assist with troubleshooting configuration issues, and provide guidance on commands for deploying and interacting with the application.
